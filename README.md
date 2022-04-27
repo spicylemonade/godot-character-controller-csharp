@@ -13,9 +13,9 @@ level(spatial)<br/>
   
   player(spatial)<br/>
    |   |--controller(kinematicBody)(player.cs)<br/>
-   |       |--collisionShape<br/>
-   |       |--MeshInstance<br/>
-   |       |--cam_follow(spatial)<br/>
+   |.....|--collisionShape<br/>
+   |.....|--MeshInstance<br/>
+   |.....|--cam_follow(spatial)<br/>
    |-- cam(InterpolatedCamera)<br/>
     
    ![alt text](https://github.com/spicylemonade/godot-character-controller-c-/blob/main/DeepinScreenshot_select-area_20220427011739.png)
