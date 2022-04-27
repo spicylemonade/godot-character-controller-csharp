@@ -7,7 +7,8 @@ level(spatial)
     player(scene)
     floor(rigidBody)
     
-    
+  ![alt text](http://url/to/img.png)
+
   player scene
   
   player(spatial)
@@ -17,7 +18,8 @@ level(spatial)
       cam_follow(spatial)
     cam(InterpolatedCamera)
     
-    
+   ![alt text](http://url/to/img.png)
+
    cam_follow is the point at which the interpolated camera will follow. set it above and behind the player and rotate it downwards
    
    in cam, set enabled to on and the target to cam_follow, adjust the speed to your liking
