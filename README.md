@@ -18,7 +18,7 @@ level(spatial)
       cam_follow(spatial)
     cam(InterpolatedCamera)
     
-   ![alt text](http://url/to/img.png)
+   ![alt text](https://github.com/spicylemonade/godot-character-controller-c-/blob/main/DeepinScreenshot_select-area_20220427011739.png)
 
    cam_follow is the point at which the interpolated camera will follow. set it above and behind the player and rotate it downwards
    
