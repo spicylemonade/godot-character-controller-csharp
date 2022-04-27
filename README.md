@@ -3,20 +3,20 @@ a godot character controller in c# with camera follow, and rotation based on dir
 
 example node setup
 
-level(spatial)
-    player(scene)
-    floor(rigidBody)
+level(spatial)<br/>
+    player(scene)<br/>
+    floor(rigidBody)<br/>
     
   ![alt text](https://github.com/spicylemonade/godot-character-controller-c-/blob/main/unknown.png)
 
   player scene
   
-  player(spatial)
-      controller(kinematicBody)(player.cs)
-      collisionShape
-      MeshInstance
-      cam_follow(spatial)
-    cam(InterpolatedCamera)
+  player(spatial)<br/>
+      controller(kinematicBody)(player.cs)<br/>
+      collisionShape<br/>
+      MeshInstance<br/>
+      cam_follow(spatial)<br/>
+    cam(InterpolatedCamera)<br/>
     
    ![alt text](https://github.com/spicylemonade/godot-character-controller-c-/blob/main/DeepinScreenshot_select-area_20220427011739.png)
 
